@@ -1,4 +1,4 @@
-description of what each script does:
+description of what each script for permission does:
 
 0. Create a script that switches the current user to the user betty.
 
@@ -23,7 +23,11 @@ description of what each script does:
 
 	Other users: all the permissions
 
+<<<<<<< HEAD
 9. Write a script that sets the mode of the file hello to this
+=======
+9 . Write a script that sets the mode of the file hello to this
+>>>>>>> 46ef50fa7e0d54793545ddee9b08c885610ebe28
 
 	-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
 10. Write a script that sets the mode of the file hello the same as olleh’s mode.
@@ -31,10 +35,15 @@ description of what each script does:
 11. Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
 
 12. Create a script that creates a directory called my_dir with permissions 751 in the working directory
+<<<<<<< HEAD
 
 13. Write a script that changes the group owner to school for the file hello
 
 14. Write a script that changes the group owner to school for the file hello
+=======
+
+13. Write a script that changes the group owner to school for the file hello
+>>>>>>> 46ef50fa7e0d54793545ddee9b08c885610ebe28
 
 14. Write a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
 
